@@ -1,0 +1,39 @@
+img{
+    max-width: 800px;
+}
+.container{
+    width: 100%;
+    /* may what to change max width as you work 
+       at the end put it as 720px. 
+    */
+    max-width: 800px;
+}
+/* to fix the image target ".fix_this" and the rows "row0-2" */
+/* USE CSS HERE */
+
+
+.row0{
+    display: flex;
+    flex-direction: row-reverse;
+    order:3;
+   
+}
+.row2{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+    order:1;
+}
+
+.row1{
+    display: flex;
+    flex-direction:row; 
+    flex-wrap: wrap;
+    order:2;
+
+}
+.fix_this{
+    display:flex;
+    flex-wrap:wrap;
+}
